@@ -1,0 +1,293 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="redhutcss.css">
+  <title>RHS</title>
+</head>
+
+
+
+<body>
+  
+  <!-- COMMON WEBSITE HEADER STARTS HERE -->
+  
+<div style="display: block;">
+<img class="logo" src="https://i.imgur.com/vOAFu9n.png">
+<div style="text-align: center;">
+<h1>Red Hut Studio</h1>
+</div>
+</div>
+
+    <nav class="nav-container">
+        <a class="nav-button" href="#logo">Home</a>
+        <a class="nav-button" href="#shop">Shop</a>
+        <!--
+        <a class="nav-button" href="C:\Users\micha\Desktop\redhut\template.html">Gallery</a>
+        <a class="nav-button" href="C:\Users\micha\Desktop\redhut\template.html">About</a>
+        <a class="nav-button" href="C:\Users\micha\Desktop\redhut\template.html">Contact</a>
+        -->
+    </nav>
+
+<!-- COMMON HEADER ENDS HERE -->
+
+<!-- PAGE SPECIFIC CONTENT STARTS HERE -->
+<div class="container">
+  <div class="row">
+    <div class="col-xs-6">
+     <img src="https://i.imgur.com/QNenQjg.png?1" style=" width: 100%; height: 100%;">
+    </div>
+    <div class="col-xs-6">
+        <img src="https://i.imgur.com/ypX862O.png" style=" width: 100%; height: 100%;">
+    </div>
+  </div>
+</div>
+<hr>
+<div class="container">
+    <div class="row text-center">
+        <div class="col-sm-3">
+            <div class="hair-background">
+                <a style="font-size: 17px; color: #fef;" href="#">Hair Accesories</a>
+            </div>
+            <hr>
+        </div>
+        <div class="col-sm-2">
+            <div class="ears-background">
+             <a style="font-size: 17px; color: #fef;" href="#">Earrings</a>
+            </div>
+            <hr>
+        </div>
+                <div class="col-sm-2">
+                    <div class="neck-background">
+                        <a style="font-size: 17px; color: #fef;" href="#">Necklace</a>
+                    </div>
+            <hr>
+                </div>
+        <div class="col-sm-2">
+            <div class="wrist-background">
+                <a style="font-size: 17px; color: #fef;" href="#">Bracelets</a>
+            </div>
+            <hr>
+        </div>
+        
+        <div class="col-sm-3">
+            <div class="wire-wrap-background">
+                <a style="font-size: 17px; color: #fef;" href="#">Wire Wraps</a>
+            </div>
+            <hr>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<!-- PAGE SPECIFIC CONTENT ENDS HERE-->
+
+<script src="redhutstudio.js"></script>
+
+<!-- PAGE SPECIFIC CONTENT STARTS HERE -->
+
+<div style="Text-align:center;">
+    <h2 id="shop">Shop</h2>
+</div>
+
+  <h3>What are you looking for?</h3>
+
+<div class="well well-sm">
+<input id="earringsCheckBox" type="checkbox" onchange="displayEarrings()" name="Earrings" value="displayEarrings" checked><label>Earrings</label></input>
+<input id="necklacesCheckBox" type="checkbox" onchange="displayNecklaces()" name="Necklaces" value="displayNecklaces" checked><label>Necklaces</label></input>
+<input id="wireWrapsCheckBox" type="checkbox" onchange="displayWireWraps()" name="WireWraps" value="displayWireWraps" checked><label>Wire Wrap</label></input>
+</div>
+
+    <div id="earrings">
+        <h3>Earrings</h3>
+        <hr>
+      <div class="container">
+       <div class="row">
+         <div class="product-container col-sm-4">
+          <img id="maya" class="product-image" src="https://i.imgur.com/ZBdcO6q.jpg">
+          <p><b><u>Maya</u></b></p>
+          <p>From: $30.00</p>
+        </div>
+         <div class="product-container col-sm-4">
+         <img class="product-image" src="https://i.imgur.com/qjJoCXl.jpg">
+         <p><b><u>Lucy</u></b></p>
+         <p>From: $30.00</p>
+        </div>
+        <div class="product-container col-sm-4">
+         <img class="product-image" src="https://i.imgur.com/fkmIfvy.jpg">
+         <p><b><u>Birdie</u></b></p>
+         <p>From: $25.00</p>
+        </div>
+        <div class="product-container col-sm-4">
+         <img class="product-image" src="https://i.imgur.com/L2NkgW8.jpg">
+         <p><b><u>ProductName</u></b></p>
+         <p>From: $80.00</p>
+        </div>
+        <div class="product-container col-sm-4">
+         <img class="product-image" src="https://i.imgur.com/dQg2hQT.jpg">
+         <p><b><u>Betty</u></b></p>
+         <p>From: $25.00</p>
+        </div>
+        <div class="product-container col-sm-4">
+         <img class="product-image" src="https://i.imgur.com/RFAGR0Y.jpg">
+         <p><b><u>Cece</u></b></p>
+         <p>From: $30.00</p>
+        </div>
+       </div>
+      </div>
+    </div>
+
+  <!-- NECKLACE SECTION STARTS HERE -->
+
+      <div id="necklaces">
+         <h3>Necklaces</h3>
+    <hr>
+  <div class="container">
+   <div class="row">
+    <div class="product-container col-sm-4">
+        <img class="product-image" src="https://i.imgur.com/3uocSpC.jpg">
+        <p><b><u>ProductName</u></b></p>
+        <p>From: $80.00</p>
+    </div>
+    <div class="product-container col-sm-4">
+        <img class="product-image" src="https://i.imgur.com/Njc2FvC.jpg">
+        <p><b><u>ProductName</u></b></p>
+        <p>From: $80.00</p>
+    </div>
+    <div class="product-container col-sm-4">
+        <img class="product-image" src="https://i.imgur.com/yHDMaq5.jpg">
+        <p><b><u>ProductName</u></b></p>
+        <p>From: $80.00</p>
+    </div>
+    <div class="product-container col-sm-4">
+        <img class="product-image" src="https://i.imgur.com/L2NkgW8.jpg">
+        <p><b><u>ProductName</u></b></p>
+        <p>From: $80.00</p>
+    </div>
+    <div class="product-container col-sm-4">
+        <img class="product-image" src="https://i.imgur.com/dQg2hQT.jpg">
+        <p><b><u>ProductName</u></b></p>
+        <p>From: $80.00</p>
+    </div>
+    <div class="product-container col-sm-4">
+        <img class="product-image" src="https://i.imgur.com/RFAGR0Y.jpg">
+        <p><b><u>ProductName</u></b></p>
+        <p>From: $80.00</p>
+    </div>
+   </div>
+  </div>
+  </div>
+
+
+    <!-- BRACELETS SECTION STARTS HERE -->
+
+  <!-- BRACELETS SECTION ENDS HERE -->
+  
+    
+  <!--  HAIR JEWELRY SECTION STARTS HERE -->
+  
+  <!-- HAIR JEWELRY SECTION ENDS HERE -->
+  
+  
+    <!-- WIRE WRAP SECTION STARTS HERE -->
+    <div id="wireWraps">
+        <h3>Wire Wrap</h3>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="product-container col-sm-4">
+                    <img class="product-image" src="https://i.imgur.com/AkdbRcq.jpg">
+                    <p><b><u>ProductName</u></b></p>
+                    <p>From: $80.00</p>
+                </div>
+                <!--
+                <div class="product-container col-sm-4">
+                    <img class="product-image" src="https://i.imgur.com/Njc2FvC.jpg">
+                    <p><b><u>ProductName</u></b></p>
+                    <p>From: $80.00</p>
+                </div>
+                <div class="product-container col-sm-4">
+                    <img class="product-image" src="https://i.imgur.com/yHDMaq5.jpg">
+                    <p><b><u>ProductName</u></b></p>
+                    <p>From: $80.00</p>
+                </div>
+                <div class="product-container col-sm-4">
+                    <img class="product-image" src="https://i.imgur.com/L2NkgW8.jpg">
+                    <p><b><u>ProductName</u></b></p>
+                    <p>From: $80.00</p>
+                </div>
+                <div class="product-container col-sm-4">
+                    <img class="product-image" src="https://i.imgur.com/dQg2hQT.jpg">
+                    <p><b><u>ProductName</u></b></p>
+                    <p>From: $80.00</p>
+                </div>
+                <div class="product-container col-sm-4">
+                    <img class="product-image" src="https://i.imgur.com/RFAGR0Y.jpg">
+                    <p><b><u>ProductName</u></b></p>
+                    <p>From: $80.00</p>
+                </div>
+            -->
+            </div>
+        </div>
+    </div>
+  <!-- WIRE WRAP SECTION ENDS HERE -->
+  
+
+  <!-- MAYA PAGE STARTS HERE -->
+
+
+
+  <!-- MAYA PAGE ENDS HERE -->
+
+
+  
+<!-- PAGE SPECIFIC CONTENT ENDS HERE -->
+
+<!-- COMMON FOOTER STARTS HERE -->
+ <div class="footer-parent container-fluid">
+  <div class="row">
+      <div class=" footer-first-born col-xs-6">
+          <h5>Connect with me!</h5>
+          <div style="display: inline;">
+              <img class="social-icon" src="https://cdn3.iconfinder.com/data/icons/wpzoom-developer-icon-set/500/01-512.png">
+          </div>
+        <div style="display: inline;">
+            <img class="social-icon" src="https://maxcdn.icons8.com/Share/icon/win8/Logos//instagram_new1600.png">
+        </div>
+        <div style="display: inline;">
+            <img class="social-icon" src="https://image.flaticon.com/icons/svg/23/23775.svg">
+                    <br>
+        <br>
+        </div>
+      </div>
+    <div style="text-align: center;" class="col-xs-6">
+        <h5><b>Copyright &copy; 2017 RedHut Studio</b></h5>
+    </div>
+  </div>
+ </div>
+<!-- LightWidget WIDGET -->
+<!-- LightWidget WIDGET -->
+<script src="//lightwidget.com/widgets/lightwidget.js"></script>
+<iframe src="//lightwidget.com/widgets/29e86546f5f3529dbd89ed74d1705935.html" scrolling="no" allowtransparency="true"
+    class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+ <!-- COMMON FOOTER ENDS HERE -->
+ 
+ <!-- NO CODE BELOW THIS LINE -->
+
+</body>
+
+</html>
